@@ -1,0 +1,75 @@
+# Ignore virtual environment
+venv/
+ENV/
+.env/
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# VS Code settings
+.vscode/
+.history/
+
+# Bytecode compiled files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+
+# Logs
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+
+# Output folders
+output/
+data/
+models/
+
+# OS files
+desktop.ini
+
+# dotenv files (API keys, DB credentials)
+.env
+*.env
+
+# Ignore secrets json/yaml (if any)
+secrets.json
+secrets.yaml
+credentials.json
+
+# Ignore your local DB backups (optional)
+*.sqlite3
+*.db
