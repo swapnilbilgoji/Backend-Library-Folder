@@ -1,4 +1,14 @@
 # backend_main.py
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # for demo (safe later to restrict)
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 from fastapi import FastAPI, HTTPException, Depends, Request, Query
 from pydantic import BaseModel
